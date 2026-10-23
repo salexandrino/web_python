@@ -1,6 +1,6 @@
-venv/
+﻿venv/
 .venv/
-__pyache__/
+__pycache__/
 *.py[cod]
 db.sqlite3
 .idea/
