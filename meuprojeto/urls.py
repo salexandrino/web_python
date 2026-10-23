@@ -19,5 +19,6 @@ from hello_django import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/<nome>/', views.hello )
+    path('hello/<nome>/', views.hello ),
+    path('soma/<int:a>/<int:b>/', views.soma)
 ]
